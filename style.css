@@ -1,0 +1,109 @@
+:root{
+  --cor-primaria: #E5E5E5;
+  --cor-secundaria: #0A3871;
+  --cor-tercearia: white;
+  --cor-instrucoes: #495057;
+  --cor-botao-descriptografa: #D8DFE8;
+
+  --fonte: font-family: "Inter", sans-serif;;
+}
+
+
+*{
+  background: var(--cor-primaria) ;
+  font-size: 32px;
+  line-height: 150%;
+}
+
+.logo{
+  margin-left: 15px;
+  padding-top: 10px;
+  width: 7%;
+}
+
+main{
+  height: 100vh;
+  display: flex;
+  margin-bottom: 50px;
+  padding-left: 120px;;
+}
+
+.text-area{
+  border: none;
+  color: var(--cor-secundaria);
+  margin-top: 7px;
+  text-transform: lowercase;
+}
+
+::placeholder{color: var(--cor-secundaria);}
+
+.text-area:focus{
+      outline:none;
+}
+
+.informacao{
+  color: var(--cor-instrucoes);
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.botoes{
+  display: flex;
+  margin-top: 18px;
+
+}
+
+.btn__encriptar{
+  background-color: var(--cor-secundaria);
+  border: 1px solid var(--cor-secundaria);
+  border-radius: 24px;
+  color: var(--cor-tercearia);
+  cursor: pointer;
+  height: 67px;
+  width: 328px;
+}
+
+.btn__desencriptar{
+  background-color: var(--cor-botao-descriptografa);
+  border: 1px solid var(--cor-secundaria);
+  border-radius: 24px;
+  color: var(--cor-secundaria);
+  cursor: pointer;
+  height: 67px;
+  margin-left: 30px;
+  width: 328px;
+}
+
+
+.mensagem{
+  background-color: var(--cor-tercearia);
+  background-image: url(./imagens/boneco.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 24px;
+  color: var(--cor-secundaria);
+  margin-left: 98px;
+  margin-top: 2px;
+  padding-left: 20px;
+  position: fixed;
+}
+
+.mensagem-focus{
+  outline: none;
+}
+
+.btn__copiar{
+  background-color: var(--cor-tercearia);
+  border: 1px solid var(--cor-secundaria);
+  border-radius: 24px;
+  color: var(--cor-secundarria);
+  cursor: pointer;
+  height: 67px;
+  margin-left: 130px;
+  margin-top: 453px;
+  position: fixed;
+  width: 328px;
+}
+
